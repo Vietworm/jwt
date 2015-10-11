@@ -1,0 +1,26 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Authentication using json web token",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@Vietworm/jwt"
+  },
+  "keywords": [
+    "jwt",
+    "authentication",
+    "HS512"
+  ],
+  "author": "Vietworm",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "helmet": "^0.12.0",
+    "jsonwebtoken": "^5.4.0"
+  }
+}
